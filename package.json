@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Try to create project with npm",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "srart": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gryzzlycruise/Project-building-test.git"
