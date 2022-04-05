@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Try to create project with npm",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gryzzlycruise/Project-building-test.git"
@@ -15,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/Gryzzlycruise/Project-building-test/issues"
   },
-  "homepage": "https://github.com/Gryzzlycruise/Project-building-test#readme"
+  "homepage": "https://github.com/Gryzzlycruise/Project-building-test#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
